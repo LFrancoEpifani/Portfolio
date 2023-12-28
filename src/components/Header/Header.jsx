@@ -3,10 +3,10 @@ import { Icon } from '@iconify/react';
 
 function Header() {
   return (
-    <div className='header p-12'>
+    <div className='header p-20'>
         <header>
             <nav className='lg:flex lg:justify-between lg:items-center'>
-                <ul className='lg:flex lg:items-center lg:gap-12'>
+                <ul className='lg:flex lg:items-center lg:gap-16 lg:font-extrabold lg:text-lg'>
                     <li>WORK</li>
                     <li>ABOUT & CONTACT</li>
                 </ul>

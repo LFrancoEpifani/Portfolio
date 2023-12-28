@@ -11,9 +11,6 @@ function App() {
           <Header/>
           <Hero/>
         </div>
-        <div>
-          <MobileProjects/>
-        </div>
     </div>
   )
 }

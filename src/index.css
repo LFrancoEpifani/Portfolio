@@ -1,13 +1,21 @@
+/* TAILWIND IMPORT */ 
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+/* GLOBALES */
 
 body{
   background-color: #fff;
   color: black;
   margin: 0;
   padding: 0;
+}
+
+html{
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -54,9 +62,42 @@ body{
   font-family: 'Nunito Sans', sans-serif;
 }
 
-.mobile-img{
-  border-radius: 1rem;
-  border: 0.1px solid #d1d1d1;
+
+.attitude{
+  background-image: 
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),
+  url(./assets/attitude.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.7rem;
   width: 330px;
   height: 550px;
+  font-family: 'Cinzel Decorative', serif;
+  position: relative;
+}
+
+.fundit{
+  background-image: 
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),
+  url(./assets/fundit.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.7rem;
+  width: 330px;
+  height: 550px;
+  font-family: 'Nosifer', sans-serif;
+  position: relative;
+}
+
+.huddle{
+  background-image: 
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),
+  url(./assets/huddle.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.7rem;
+  width: 330px;
+  height: 550px;
+  font-family: 'Nunito Sans', sans-serif;
+  position: relative;
 }
