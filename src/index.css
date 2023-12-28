@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color: #fff;
+  color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+/* KEYFRAMES */
+
+@keyframes smoothMoveUp {
+  0%, 100% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-10%);
+  }
+}
+
+
+
+/* HEADER */
+
+.header{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+
+/* HERO */
+
+.name{
+  font-family: 'Prompt', sans-serif;
+}
+
+.description{
+  font-family: 'Prompt', sans-serif;
+}
+
+.arrow-down {
+  animation: smoothMoveUp 2s ease-in-out infinite;
+}
+
+
+/* MOBILE PROJECTS */
+
+.mobile{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.mobile-img{
+  border-radius: 1rem;
+  border: 0.1px solid #d1d1d1;
+  width: 330px;
+  height: 550px;
+}
