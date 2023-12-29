@@ -18,7 +18,7 @@ function Header() {
     <div className='nunito p-10'>
         <header>
             <nav className='lg:flex lg:justify-between lg:items-center'>
-                <ul className='prompt lg:flex lg:items-center lg:gap-16 lg:font-semibold lg:text-lg'>
+                <ul className='prompt lg:flex lg:items-center lg:gap-16 lg:font-semibold lg:text-md'>
                     <li>WORK</li>
                     <li>ABOUT & CONTACT</li>
                 </ul>
