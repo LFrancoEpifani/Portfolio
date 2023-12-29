@@ -7,7 +7,12 @@ import myVideo from '../../assets/lines.mp4' // Asegúrate de usar la ruta corre
 export default function Hero() {
   return (
     <div>
-      <div className='lg:mt-120 lg:mb-220'>
+       <div className='flex justify-center'>
+              <video width="500" autoPlay loop muted>
+                <source src={myVideo} type="video/mp4"/>
+              </video>
+            </div>
+      <div className='lg:mb-220'>
         <main className='lg:flex lg:justify-center lg:items-center'>
           <div className='lg:flex lg:items-center lg:justify-center'>
             <div>
@@ -19,14 +24,12 @@ export default function Hero() {
               </a>
               </div>
             </div>
-            <div>
-              <video width="500" autoPlay loop muted>
-                <source src={myVideo} type="video/mp4"/>
-              </video>
-            </div>
+           
           </div>
           
+          
         </main>
+       
       </div>
       <div>
         <DesktopProjects/>
