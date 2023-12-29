@@ -74,8 +74,9 @@ html{
   background-size: cover;
   background-position: center;
   border-radius: 0.7rem;
-  width: 330px;
-  height: 550px;
+  width: 300px;
+  height: 500px;
+  background-size: cover;
   font-family: 'Cinzel Decorative', serif;
   position: relative;
 }
@@ -89,8 +90,9 @@ html{
   background-size: cover;
   background-position: center;
   border-radius: 0.7rem;
-  width: 330px;
-  height: 550px;
+  width: 300px;
+  height: 500px;
+  background-size: cover;
   font-family: 'Nosifer', sans-serif;
   position: relative;
  
@@ -105,8 +107,9 @@ html{
   background-size: cover;
   background-position: center;
   border-radius: 0.7rem;
-  width: 330px;
-  height: 550px;
+  width: 300px;
+  height: 500px;
+  background-size: cover;
   font-family: 'Nunito Sans', sans-serif;
   position: relative;
  

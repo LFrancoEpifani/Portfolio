@@ -8,7 +8,7 @@ export default function DesktopProjects() {
   return (
     <div className=''>
         <div className='lg:flex lg:justify-evenly lg:my-50'>
-        <div className='lg:w-[800px] lg:h-[400px] lg:rounded-md relative'>
+        <div className='lg:w-[700px] lg:h-[400px] lg:rounded-md relative'>
         <div className='absolute inset-0 bg-black opacity-50'></div>
         <img
             className='w-full h-full'
@@ -44,11 +44,11 @@ export default function DesktopProjects() {
                 </div>
             </div>
         </div>
-        <div className='lg:flex lg:justify-evenly lg:my-50'>
-        <div className='lg:w-[800px] lg:h-[400px] lg:rounded-md relative'>
+        <div className='lg:flex lg:justify-evenly'>
+        <div className='lg:w-700 lg:h-400 lg:rounded-md lg:object-cover relative'>
         <div className='absolute inset-0 bg-black opacity-50'></div>
         <img
-            className='w-full h-full object-cover'
+            className=''
             src={Coindom}
             alt=""
         />
