@@ -11,7 +11,7 @@ export default function DesktopProjects() {
                 <img className='lg:w-[800px] lg:h-[400px] lg:rounded-md' src={Gozice} alt="" />
             <div>
                 <h3 className='lg:text-2xl lg:font-bold lg:my-20'>Gozice</h3>
-                <p className='lg:mt-20 lg:w-500 lg:text-lg lg:leading-8'>
+                <p className='lg:mt-20 lg:w-300 lg:text-lg lg:leading-8'>
                     Landing Page de acaí bowls y smoothies.
                     Desarrollado con Astro para una interfaz de usuario
                     interactiva y rápida. Estilizado con Tailwind CSS 
@@ -41,7 +41,7 @@ export default function DesktopProjects() {
             <img className='lg:w-[800px] lg:h-[400px] lg:rounded-md' src={Coindom} alt="" />
             <div>
                 <h3 className='lg:text-2xl lg:font-bold lg:my-20'>Coindom</h3>
-                <p className='lg:mt-20 lg:w-500 lg:text-lg lg:leading-8'>
+                <p className='lg:mt-20 lg:w-300 lg:text-lg lg:leading-8'>
                 Esta aplicación web utiliza React y SASS para ofrecer una experiencia de usuario dinámica y estilizada. Mediante la API de CoinGecko, provee datos actualizados sobre criptomonedas, incluyendo precios y tendencias de mercado. 
                 </p>
                 <div className='lg:flex lg:justify-start lg:items-center lg:gap-30 lg:mt-30 lg:mx-5'>
