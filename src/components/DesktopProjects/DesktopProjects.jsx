@@ -8,7 +8,7 @@ export default function DesktopProjects() {
   return (
     <div className=''>
         <div className='lg:flex lg:justify-evenly lg:my-50'>
-                <img className='bg-black opacity-85 lg:w-[800px] lg:h-[400px] lg:rounded-md' src={Gozice} alt="" />
+                <img className='lg:w-[800px] lg:h-[400px] lg:rounded-md' src={Gozice} alt="" />
             <div>
                 <h3 className='lg:text-2xl lg:font-bold lg:my-20'>Gozice</h3>
                 <p className='lg:mt-20 lg:w-500 lg:text-lg lg:leading-8'>
