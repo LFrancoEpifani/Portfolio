@@ -8,12 +8,7 @@ import whiteLines from '../../assets/lines.mp4'
 export default function Hero() {
   return (
     <div>
-      <div className='flex justify-center items-center'>
-            <video width="600" autoPlay loop muted>
-              <source src={whiteLines} type="video/mp4"/>
-            </video>
-          </div>
-    <div className=' lg:mb-220'>
+    <div className='lg:mt-120 lg:mb-220'>
       <main className='lg:flex lg:justify-center lg:items-center'>
         <div className='lg:flex lg:items-center '>
           <div className='flex flex-col justify-center items-center'>
@@ -23,7 +18,11 @@ export default function Hero() {
               <Icon className='arrow-down lg:text-7xl lg:my-8' icon="ep:arrow-down" />
             </a>
           </div>
-          
+          <div>
+            <video width="600" autoPlay loop muted>
+              <source src={whiteLines} type="video/mp4"/>
+            </video>
+          </div>
         </div>
       </main>
     </div>

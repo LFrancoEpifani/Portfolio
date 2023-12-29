@@ -5,7 +5,7 @@ import Group from '../../assets/circle.png'
 export default function AboutMe() {
   return (
     <div className=''>
-        <div className='mx-80 my-60'>
+        <div className='mx-80 mt-160 mb-50'>
             <h3 className='nunito text-indigo-600 font-bold text-3xl'>SOBRE MÍ</h3>
             <p className='nunito text-3xl font-semibold mb-30 mt-10'>Desarrollador Front-end en Barcelona, España📍</p>
         </div>
