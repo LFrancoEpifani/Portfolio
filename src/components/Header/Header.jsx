@@ -1,7 +1,19 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Icon } from '@iconify/react';
 
 function Header() {
+
+    const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
+
+  useEffect(() => {
+    document.body.style.backgroundColor = darkMode ? '#1F1F1F' : 'white';
+    document.body.style.color = darkMode ? 'white' : '#1F1F1F';
+}, [darkMode]);
+
   return (
     <div className='header p-20'>
         <header>
@@ -13,18 +25,26 @@ function Header() {
                 <ul className='lg:flex lg:gap-6'>
                     <li>
                       <button>
-                        <Icon className='text-2xl' icon="mdi:github" />
+                       <a href="https://github.com/LFrancoEpifani" target='_blank'>
+                         <Icon className='text-2xl' icon="mdi:github" />
+                       </a>
                       </button>
                     </li>
                     <li>
                         <button>
-                            <Icon className='text-2xl' icon="ant-design:linkedin-outlined" />
+                            <a href="https://www.linkedin.com/in/lucianoepifani/" target='_blank'>
+                                <Icon className='text-2xl' icon="ant-design:linkedin-outlined" />
+                            </a>
                         </button>
                     </li>
                     <li>
-                        <button>
-                            <Icon className='text-2xl' icon="tabler:moon" />
-                        </button>
+                    <button onClick={toggleDarkMode}>
+                                {darkMode ? (
+                                    <Icon className='text-2xl' icon="tabler:sun" />
+                                ) : (
+                                    <Icon className='text-2xl' icon="tabler:moon" />
+                                )}
+                            </button>
                     </li>
                 </ul>
             </nav>
