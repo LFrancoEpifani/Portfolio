@@ -19,10 +19,10 @@ export default function Hero() {
         </main>
     </div>
     <div>
-    <MobileProjects/>
+    <DesktopProjects/>
     </div>
-    <div>
-      <DesktopProjects/>
+    <div className='mt-100'> 
+      <MobileProjects/>
     </div>
    </div>
   )

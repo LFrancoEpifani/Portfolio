@@ -9,7 +9,7 @@ export default function MobileProjects() {
     <div id='mobile-projects' className=''>
         <div className='lg:flex lg:justify-evenly lg:items-center lg:gap-50 lg:p-10'>
             <div className="attitude">
-                <div className='lg:absolute lg:top-250 lg:left-95 lg:text-white'>
+                <div className='lg:absolute lg:top-200 lg:left-75 lg:text-white'>
                     <h3 className='lg:text-3xl lg:mb-4'>Attitude</h3>
                     <div className='lg:flex lg:justify-center lg:items-center lg:gap-8 lg:mb-12'>
                         <a href="https://github.com/lucianoEpifani/Attitude-Vite"  target='_blank'>
@@ -27,7 +27,7 @@ export default function MobileProjects() {
                 </div>
             </div>
             <div className="fundit" >
-            <div className='lg:absolute lg:top-250 lg:left-95 lg:text-white'>
+            <div className='lg:absolute lg:top-200 lg:left-75 lg:text-white'>
                     <h3 className='lg:text-3xl lg:mb-4'>Fundit</h3>
                     <div className='lg:flex lg:justify-center lg:items-center lg:gap-8 lg:mb-12'>
                         <a href="https://github.com/LFrancoEpifani/Fundiit"  target='_blank'>
@@ -45,7 +45,7 @@ export default function MobileProjects() {
                 </div>
             </div>
             <div className="huddle" > 
-                 <div className='absolute top-250 left-115 text-white'>
+                 <div className='absolute lg:top-200 lg:left-95 text-white'>
                     <h3 className='lg:text-3xl lg:mb-4'>HUDDLE</h3>
                     <div className='lg:flex lg:justify-center lg:items-center lg:gap-8 lg:mb-12'>
                     <a href="https://github.com/LFrancoEpifani/Huddle"  target='_blank'>
