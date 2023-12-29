@@ -6,18 +6,18 @@ export default function AboutMe() {
   return (
     <div className=''>
         <div className='mx-100 my-100'>
-            <h3 className='nunito text-indigo-600 font-bold text-3xl'>ABOUT ME</h3>
-            <p className='nunito text-3xl font-semibold mb-30 mt-10'>A dedicated Front-end Developerbased in Barcelona, Spain📍</p>
+            <h3 className='nunito text-indigo-600 font-bold text-3xl'>SOBRE MÍ</h3>
+            <p className='nunito text-3xl font-semibold mb-30 mt-10'>Desarrollador Front-end en Barcelona, España📍</p>
         </div>
-        <div className='flex justify-evenly'>
+        <div className='flex justify-evenly items-center'>
            <div className='relative'>
-                <img className='w-550 my-20' src={AboutMeImage} alt="" />
-                <div>
-                    <img className='rotating-image absolute bottom-190 left-320 w-280' src={Group} alt="" />
+                <img className='w-550 my-20 object-cover' src={AboutMeImage} alt="" />
+                <div className=''>
+                    <img className='bg-white rounded-full rotating-image absolute bottom-210 left-340 w-250' src={Group} alt="" />
                 </div>
            </div>
             <p className='nunito w-550 text-xl leading-9'>
-            As a Junior Front-End Developer, my skill set includes a robust knowledge of HTML, CSS, JavaScript, React, Tailwind, and SCSS. I specialize in creating and managing responsive websites that deliver an exceptional user experience. My expertise lies in developing vibrant and interactive interfaces by writing efficient, well-organized code and applying various development tools and methodologies. Additionally, I am adept at working in team environments, effectively collaborating with multidisciplinary teams to develop top-notch web applications.
+            Como Desarrollador Front-End Junior, mi conjunto de habilidades incluye un sólido conocimiento de HTML, CSS, JavaScript, React, Tailwind y SCSS. Me especializo en la creación y gestión de sitios web responsivos que ofrecen una experiencia de usuario excepcional. Mi experiencia radica en el desarrollo de interfaces vibrantes e interactivas escribiendo código eficiente y bien organizado y aplicando diversas herramientas y metodologías de desarrollo. Además, soy experto en trabajar en entornos de equipo, colaborando eficazmente con equipos multidisciplinares para desarrollar aplicaciones web de primera categoría.
             </p>
         </div>
     </div>
