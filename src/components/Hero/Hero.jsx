@@ -10,7 +10,7 @@ export default function Hero() {
     <div>
     <div className='lg:mt-120 lg:mb-220'>
       <main className='lg:flex lg:justify-center lg:items-center'>
-        <div className='lg:flex lg:items-start '>
+        <div className='lg:flex lg:items-center '>
           <div className='flex flex-col justify-center items-center'>
             <h1 className='prompt lg:tex-tcenter lg:text-4xl lg:font-extralight lg:my-8'>Luciano Epifani</h1>
             <p className='prompt lg:text-center lg:text-4xl lg:my-8'>Frontend Web Developer</p>
