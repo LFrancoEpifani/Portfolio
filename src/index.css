@@ -44,18 +44,14 @@ html{
 
 /* HEADER */
 
-.header{
+.nunito{
   font-family: 'Nunito Sans', sans-serif;
 }
 
 
 /* HERO */
 
-.name{
-  font-family: 'Prompt', sans-serif;
-}
-
-.description{
+.prompt{
   font-family: 'Prompt', sans-serif;
 }
 

@@ -3,19 +3,7 @@ import {useState} from 'react'
 import {Icon} from '@iconify/react'
 
 export default function MobileProjects() {
-
-   
-    const [textColor, setTextColor] = useState('black'); // color inicial
-
-    const handleMouseEnter = () => {
-        setTextColor('black'); // nuevo color al pasar el cursor
-    };
-
-    const handleMouseLeave = () => {
-        setTextColor('white'); // color original al salir el cursor
-    };
     
-
 
   return (
     <div id='mobile-projects' className=''>

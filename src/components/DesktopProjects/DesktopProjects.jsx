@@ -2,7 +2,7 @@ import React from 'react'
 import {Icon} from '@iconify/react'
 import Gozice from '../../assets/GoziceImage.png'
 import Coindom from '../../assets/CoindomImage.png'
-import Group from '../../assets/circle.png'
+
 
 export default function DesktopProjects() {
   return (

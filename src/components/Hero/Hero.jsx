@@ -9,8 +9,8 @@ export default function Hero() {
    <div>
      <div className='lg:mt-120 lg:mb-120'>
         <main className='lg:flex lg:flex-col lg:justify-center lg:items-center'>
-            <h1 className='name lg:text-5xl lg:font-extralight lg:my-8'>Luciano Epifani</h1>
-            <p className='description lg:text-5xl lg:my-8'>Frontend Web Developer</p>
+            <h1 className='prompt lg:text-5xl lg:font-extralight lg:my-8'>Luciano Epifani</h1>
+            <p className='prompt lg:text-5xl lg:my-8'>Frontend Web Developer</p>
            
             <a href='#mobile-projects'>
                 <Icon className='arrow-down lg:text-7xl lg:my-8' icon="ep:arrow-down" />

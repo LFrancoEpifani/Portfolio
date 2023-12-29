@@ -13,7 +13,7 @@ export default function AboutMe() {
            <div className='relative'>
                 <img className='w-550 my-20' src={AboutMeImage} alt="" />
                 <div>
-                    <img className='rotating-image absolute bottom-140 left-420 w-320' src={Group} alt="" />
+                    <img className='rotating-image absolute bottom-160 left-420 w-280' src={Group} alt="" />
                 </div>
            </div>
             <p className='nunito w-550 text-xl leading-9'>
