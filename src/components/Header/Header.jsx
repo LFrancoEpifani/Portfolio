@@ -19,8 +19,8 @@ function Header() {
         <header>
             <nav className='lg:flex lg:justify-between lg:items-center'>
                 <ul className='prompt lg:flex lg:items-center lg:gap-16 lg:font-semibold lg:text-md'>
-                    <li>WORK</li>
-                    <li>ABOUT & CONTACT</li>
+                    <a href="#mobile-projects"><li>WORK</li></a>
+                   <a href="#aboutme"><li>ABOUT & CONTACT</li></a>
                 </ul>
                 <ul className='lg:flex lg:gap-6'>
                     <li>

@@ -12,7 +12,7 @@ export default function AboutMe() {
         <div className='flex justify-evenly items-center'>
            <div className='relative'>
                 <img className='w-550 my-20 object-cover' src={AboutMeImage} alt="" />
-                <div className=''>
+                <div id='aboutme'>
                     <img className='bg-white rounded-full rotating-image absolute bottom-210 left-340 w-250' src={Group} alt="" />
                 </div>
            </div>
