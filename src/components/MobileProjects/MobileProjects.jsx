@@ -6,7 +6,7 @@ export default function MobileProjects() {
     
 
   return (
-    <div id='mobile-projects' className=''>
+    <div className=''>
         <div className='lg:flex lg:justify-evenly lg:items-center lg:gap-50 lg:p-10'>
             <div className="attitude">
                 <div className='lg:absolute lg:top-200 lg:left-75 lg:text-white'>

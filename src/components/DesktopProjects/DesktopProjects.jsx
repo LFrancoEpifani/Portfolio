@@ -6,7 +6,7 @@ import Coindom from '../../assets/CoindomImage.png'
 
 export default function DesktopProjects() {
   return (
-    <div className=''>
+    <div id='desktop-projects' className=''>
         <div className='lg:flex lg:justify-evenly lg:my-50'>
         <div className='lg:w-[700px] lg:h-[400px] lg:rounded-md relative'>
         <div className='absolute inset-0 bg-black opacity-50'></div>

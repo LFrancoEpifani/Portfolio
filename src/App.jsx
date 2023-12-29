@@ -1,7 +1,7 @@
 import AboutMe from "./components/AboutMe/AboutMe"
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
-import MobileProjects from "./components/MobileProjects/MobileProjects"
+
 
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
           <Hero/>
           <AboutMe/>
         </div>
+        
     </div>
   )
 }
