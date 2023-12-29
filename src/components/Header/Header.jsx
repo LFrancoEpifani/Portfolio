@@ -15,7 +15,7 @@ function Header() {
 }, [darkMode]);
 
   return (
-    <div className='header p-20'>
+    <div className='nunito p-20'>
         <header>
             <nav className='lg:flex lg:justify-between lg:items-center'>
                 <ul className='lg:flex lg:items-center lg:gap-16 lg:font-extrabold lg:text-lg'>

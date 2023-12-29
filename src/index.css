@@ -32,6 +32,14 @@ html{
   }
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 
 /* HEADER */
@@ -106,4 +114,12 @@ html{
   font-family: 'Nunito Sans', sans-serif;
   position: relative;
  
+}
+
+
+/* DESKTOP PROJECTS */
+
+.rotating-image {
+  display: inline-block;
+  animation: spin 10s linear infinite;
 }

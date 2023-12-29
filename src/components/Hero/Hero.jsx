@@ -1,6 +1,7 @@
 import React from 'react'
 import {Icon} from '@iconify/react'
 import MobileProjects from '../MobileProjects/MobileProjects'
+import DesktopProjects from '../DesktopProjects/DesktopProjects'
 
 
 export default function Hero() {
@@ -17,7 +18,12 @@ export default function Hero() {
           
         </main>
     </div>
+    <div>
     <MobileProjects/>
+    </div>
+    <div>
+      <DesktopProjects/>
+    </div>
    </div>
   )
 }
