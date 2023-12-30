@@ -2,9 +2,13 @@ import React from 'react'
 import {Icon} from '@iconify/react'
 import Gozice from '../../assets/GoziceImage.png'
 import Coindom from '../../assets/CoindomImage.png'
+import { useTranslation } from 'react-i18next';
 
 
 export default function DesktopProjects() {
+
+    const {t} = useTranslation();
+
   return (
     <div id='desktop-projects' className='text-center lg:text-start'>
         <div className='mt-220 lg:flex lg:justify-evenly lg:my-50'>
@@ -16,16 +20,13 @@ export default function DesktopProjects() {
             alt=""
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-            <h3 className="text-4xl font-bold text-white shadow-lg">Próximamente</h3>
+            <h3 className="text-4xl font-bold text-white">{t('soon')}</h3>
         </div>
     </div>
             <div>
                 <h3 className='nunito text-2xl my-10 font-bold lg:my-20'>Gozice</h3>
                 <p className='mt-20 text-md lg:w-400 lg:text-lg lg:leading-8'>
-                    Landing Page de acaí bowls y smoothies.
-                    Desarrollado con Astro para una interfaz de usuario
-                    interactiva y rápida. Estilizado con Tailwind CSS 
-                    para un diseño responsivo y atractivo.
+                    {t("gozice")}
                 </p>
                 <div className='flex justify-center my-20 lg:justify-start lg:items-center gap-30 lg:mt-30 lg:mx-5'>
                     <Icon className='text-3xl items-center' icon="logos:figma"/>
@@ -59,7 +60,7 @@ export default function DesktopProjects() {
     <div>
                 <h3 className='nunito text-2xl my-10 font-bold lg:my-20'>Coindom</h3>
                 <p className='mt-20 text-md lg:w-400 lg:text-lg lg:leading-8'>
-                Esta aplicación web utiliza React y SASS para ofrecer una experiencia de usuario dinámica y estilizada. Mediante la API de CoinGecko, provee datos actualizados sobre criptomonedas, incluyendo precios y tendencias de mercado. 
+                {t('coindom')}
                 </p>
                 <div className='flex justify-center my-20 lg:justify-start lg:items-center gap-30 lg:mt-30 lg:mx-5'>
                     <Icon className='text-3xl items-center' icon="logos:figma"/>
