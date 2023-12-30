@@ -17,7 +17,8 @@ const resources = {
       contact: "Contact",
       phone: "Phone",
       soon: "SOON",
-      lenguage: "Lenguage"
+      lenguage: "Lenguage",
+      projects: "PROJECTS"
     },
   },
   es: {
@@ -34,7 +35,8 @@ const resources = {
       contact: "Contacto",
       phone: "Teléfono",
       soon: "PRÓXIMAMENTE",
-      lenguage: "Lenguaje"
+      lenguage: "Lenguaje",
+      projects: "PROYECTOS"
     },
   },
 };

@@ -18,7 +18,7 @@ export default function AboutMe() {
            <div className='relative'>
                 <img className='w-500 my-20 object-cover' src={AboutMeImage} alt="" />
                 <div >
-                    <img className='bg-white rounded-full rotating-image absolute bottom-270 left-106 w-160 lg:bottom-210 lg:left-340 lg:w-200' src={Group} alt="" />
+                    <img className='bg-white rounded-full rotating-image absolute bottom-260 left-105 w-160 lg:bottom-210 lg:left-340 lg:w-200' src={Group} alt="" />
                 </div>
            </div>
             <p className='nunito text-center p-4 lg:w-550 lg:first-letter:text-lg leading-9'>

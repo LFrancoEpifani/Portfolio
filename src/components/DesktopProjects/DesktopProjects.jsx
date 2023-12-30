@@ -11,8 +11,10 @@ export default function DesktopProjects() {
 
   return (
     <div id='desktop-projects' className='text-center lg:text-start'>
-        <div className='mt-220 lg:flex lg:justify-evenly lg:my-50'>
-        <div className='lg:w-[700px] lg:h-[400px] lg:rounded-md relative'>
+       <h2 className='nunito text-center m-20 text-2xl font-semibold my-60 lg:text-start lg:mx-160'><span className='border-b-4 border-black'>{t('projects')}</span></h2>
+        <div className='lg:mt-220 lg:flex lg:justify-evenly lg:my-50'>
+       
+        <div className='lg:w-[700px] lg:h-[400px] lg:rounded-md relative m-20'>
         <div className='absolute inset-0 bg-black opacity-50'></div>
         <img
             className='w-full h-full'
@@ -49,7 +51,7 @@ export default function DesktopProjects() {
             </div>
         </div>
         <div className='lg:flex lg:justify-evenly lg:my-50'>
-        <div className='lg:w-[700px] lg:h-[400px] lg:rounded-md relative'>
+        <div className='lg:w-[700px] lg:h-[400px] lg:rounded-md relative m-20'>
         <div className='absolute inset-0 bg-black opacity-50'></div>
         <img
             className='w-full h-full'
