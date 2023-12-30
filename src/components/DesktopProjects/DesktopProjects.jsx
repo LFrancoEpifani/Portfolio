@@ -15,6 +15,9 @@ export default function DesktopProjects() {
             src={Gozice}
             alt=""
         />
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+            <h3 className="text-4xl font-bold text-white shadow-lg">Próximamente</h3>
+        </div>
     </div>
             <div>
                 <h3 className='nunito text-2xl my-10 font-bold lg:my-20'>Gozice</h3>
