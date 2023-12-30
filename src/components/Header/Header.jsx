@@ -61,7 +61,7 @@ function Header() {
             </ul>
           </div>
         ) : (
-          <div className="absolute top-0 z-20 w-full transition-menu bg-white shadow-lg h-300">
+          <div className="absolute top-0 z-20 w-full transition-menu bg-white h-300">
             {/* Contenido del menú cuando está cerrado */}
           </div>
         )}
