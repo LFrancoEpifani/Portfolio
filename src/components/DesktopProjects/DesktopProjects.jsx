@@ -39,7 +39,7 @@ export default function DesktopProjects() {
                     </div>
                 </div>
                 <div>
-                <div className='flex justify-center items-center gap-8 my-20 lg:justify-start lg:items-start lg:my-50'>
+                <div className='flex justify-center items-center gap-8 my-20 lg:justify-start lg:items-center lg:my-50'>
                         <a href="#"  target='_blank'>
                             <Icon className='text-3xl' icon="mdi:github" />
                         </a>
@@ -73,7 +73,7 @@ export default function DesktopProjects() {
                     </div>
                 </div>
                 <div>
-                <div className='flex justify-center items-center gap-8 my-20 lg:justify-start lg:items-start lg:my-50'>
+                <div className='flex justify-center items-center gap-8 my-20 lg:justify-start lg:items-center lg:my-50'>
                         <a href="https://github.com/LFrancoEpifani/Coindom"  target='_blank'>
                             <Icon className='text-3xl' icon="mdi:github" />
                         </a>
