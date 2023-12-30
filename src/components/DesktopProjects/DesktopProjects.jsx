@@ -11,8 +11,8 @@ export default function DesktopProjects() {
 
   return (
     <div id='desktop-projects' className='text-center lg:text-start'>
-       <h2 className='nunito text-center m-20 text-2xl font-semibold my-60 lg:text-start lg:mx-160'><span className='border-b-4 border-black'>{t('projects')}</span></h2>
-        <div className='lg:mt-220 lg:flex lg:justify-evenly lg:my-50'>
+       <h2 className='nunito text-center m-20 text-2xl font-semibold my-60 lg:text-start lg:mx-160'><span className=' border-b-4 border-black'>{t('projects')}</span></h2>
+        <div className='lg:flex lg:justify-evenly lg:my-50'>
        
         <div className='lg:w-[700px] lg:h-[400px] lg:rounded-md relative m-20'>
         <div className='absolute inset-0 bg-black opacity-50'></div>
@@ -27,7 +27,7 @@ export default function DesktopProjects() {
     </div>
             <div>
                 <h3 className='nunito text-2xl my-10 font-bold lg:my-20'>Gozice</h3>
-                <p className='w-full h-full overflow-auto mt-20 text-md lg:w-400 lg:text-lg lg:leading-8 '>
+                <p className='w-full overflow-auto mt-20 text-md lg:w-400 lg:text-lg lg:leading-8 '>
                     {t("gozice")}
                 </p>
                 <div className='flex justify-center my-20 lg:justify-start lg:items-center gap-30 lg:mt-30 lg:mx-5'>
@@ -39,7 +39,7 @@ export default function DesktopProjects() {
                     </div>
                 </div>
                 <div>
-                <div className='flex justify-center items-center gap-8 my-20 lg:my-50'>
+                <div className='flex justify-center items-center gap-8 my-20 lg:justify-start lg:items-start lg:my-50'>
                         <a href="#"  target='_blank'>
                             <Icon className='text-3xl' icon="mdi:github" />
                         </a>
@@ -61,7 +61,7 @@ export default function DesktopProjects() {
     </div>
     <div>
                 <h3 className='nunito text-2xl my-10 font-bold lg:my-20'>Coindom</h3>
-                <p className='w-full h-full overflow-auto mt-20 text-md lg:w-400 lg:text-lg lg:leading-8'>
+                <p className='w-full overflow-auto mt-20 text-md lg:w-400 lg:text-lg lg:leading-8'>
                 {t('coindom')}
                 </p>
                 <div className='flex justify-center my-20 lg:justify-start lg:items-center gap-30 lg:mt-30 lg:mx-5'>
@@ -73,7 +73,7 @@ export default function DesktopProjects() {
                     </div>
                 </div>
                 <div>
-                <div className='flex justify-center items-center gap-8 my-20 lg:my-50'>
+                <div className='flex justify-center items-center gap-8 my-20 lg:justify-start lg:items-start lg:my-50'>
                         <a href="https://github.com/LFrancoEpifani/Coindom"  target='_blank'>
                             <Icon className='text-3xl' icon="mdi:github" />
                         </a>
