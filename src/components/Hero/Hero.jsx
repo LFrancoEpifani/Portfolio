@@ -13,7 +13,7 @@ export default function Hero() {
         <div className='lg:flex lg:items-center '>
           <div className='flex flex-col justify-center items-center'>
             <h1 className='prompt text-2xl lg:tex-tcenter lg:text-4xl lg:font-extralight lg:my-8'>Luciano Epifani</h1>
-            <p className='prompt text-2xl font-semibold  lg:text-center lg:text-4xl lg:my-8'>Frontend Web Developer</p>
+            <p className='prompt text-2xl font-semibold  lg:text-center lg:text-4xl lg:my-8'>Desarrollador Web Frontend</p>
             <a href='#desktop-projects'>
               <Icon className='arrow-down text-3xl lg:text-7xl my-8' icon="ep:arrow-down" />
             </a>
