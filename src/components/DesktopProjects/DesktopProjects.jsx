@@ -25,7 +25,7 @@ export default function DesktopProjects() {
     </div>
             <div>
                 <h3 className='nunito text-2xl my-10 font-bold lg:my-20'>Gozice</h3>
-                <p className='mt-20 text-md lg:w-400 lg:text-lg lg:leading-8'>
+                <p className='w-full h-full overflow-auto mt-20 text-md lg:w-400 lg:text-lg lg:leading-8 '>
                     {t("gozice")}
                 </p>
                 <div className='flex justify-center my-20 lg:justify-start lg:items-center gap-30 lg:mt-30 lg:mx-5'>
@@ -38,10 +38,10 @@ export default function DesktopProjects() {
                 </div>
                 <div>
                 <div className='flex justify-center items-center gap-8 my-20 lg:my-50'>
-                        <a href="https://github.com/lucianoEpifani/Attitude-Vite"  target='_blank'>
+                        <a href="#"  target='_blank'>
                             <Icon className='text-3xl' icon="mdi:github" />
                         </a>
-                        <a href="https://lucianoepifani.github.io/Attitude-Vite/"  target='_blank'>
+                        <a href="#"  target='_blank'>
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" className="hover:-translate-y-1 transition-transform cursor-pointer" height="25" width="25" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"></path></svg>
                         </a>
                     </div>
@@ -59,7 +59,7 @@ export default function DesktopProjects() {
     </div>
     <div>
                 <h3 className='nunito text-2xl my-10 font-bold lg:my-20'>Coindom</h3>
-                <p className='mt-20 text-md lg:w-400 lg:text-lg lg:leading-8'>
+                <p className='w-full h-full overflow-auto mt-20 text-md lg:w-400 lg:text-lg lg:leading-8'>
                 {t('coindom')}
                 </p>
                 <div className='flex justify-center my-20 lg:justify-start lg:items-center gap-30 lg:mt-30 lg:mx-5'>
@@ -72,10 +72,10 @@ export default function DesktopProjects() {
                 </div>
                 <div>
                 <div className='flex justify-center items-center gap-8 my-20 lg:my-50'>
-                        <a href="https://github.com/lucianoEpifani/Attitude-Vite"  target='_blank'>
+                        <a href="https://github.com/LFrancoEpifani/Coindom"  target='_blank'>
                             <Icon className='text-3xl' icon="mdi:github" />
                         </a>
-                        <a href="https://lucianoepifani.github.io/Attitude-Vite/"  target='_blank'>
+                        <a href="https://coindom-crypto-search.vercel.app/"  target='_blank'>
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" className="hover:-translate-y-1 transition-transform cursor-pointer" height="25" width="25" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"></path></svg>
                         </a>
                     </div>
