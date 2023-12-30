@@ -9,7 +9,7 @@ function Header() {
   };
 
   return (
-    <div className="nunito p-10">
+    <div className="nunito lg:p-10">
       <div className="relative lg:hidden">
         <button onClick={toggleMenu}>
           {!isOpen && (
@@ -21,9 +21,9 @@ function Header() {
          
           <div className="fixed top-0 z-20 bg-white shadow-lg w-full h-300">
             <ul className="text-center">
-                 <Icon onClick={toggleMenu} className='text-2xl' icon="material-symbols:close" />
+                 <Icon onClick={toggleMenu} className='text-2xl m-10' icon="material-symbols:close" />
               <li>
-                <a href="#mobile-projects" onClick={toggleMenu}>
+                <a href="#desktop-projects" onClick={toggleMenu}>
                   WORK
                 </a>
               </li>
