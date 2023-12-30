@@ -45,7 +45,19 @@ html{
 }
 
 
+
+
 /* HEADER */
+
+.transition-menu {
+  transition: transform 0.3s ease-in-out; 
+  transform: translateY(-100%);
+}
+
+.transition-menu.active {
+  transform: translateY(0);
+
+}
 
 .nunito{
   font-family: 'Nunito Sans', sans-serif;
