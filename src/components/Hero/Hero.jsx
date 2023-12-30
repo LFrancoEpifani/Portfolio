@@ -8,7 +8,7 @@ import whiteLines from '../../assets/lines.mp4'
 export default function Hero() {
   return (
     <div>
-    <div className='lg:mt-120 lg:mb-220'>
+    <div className='lg:mt-120 mt-100 mb-120 lg:mb-220'>
       <main className='lg:flex lg:justify-center lg:items-center'>
         <div className='lg:flex lg:items-center '>
           <div className='flex flex-col justify-center items-center'>
@@ -26,7 +26,7 @@ export default function Hero() {
         </div>
       </main>
     </div>
-    <div>
+    <div className=''>
       <DesktopProjects/>
     </div>
     <div className='mt-100'> 

@@ -56,17 +56,14 @@ export default function DesktopProjects() {
     <div>
                 <h3 className='nunito text-2xl my-10 font-bold lg:my-20'>Coindom</h3>
                 <p className='mt-20 text-md lg:w-400 lg:text-lg lg:leading-8'>
-                    Landing Page de acaí bowls y smoothies.
-                    Desarrollado con Astro para una interfaz de usuario
-                    interactiva y rápida. Estilizado con Tailwind CSS 
-                    para un diseño responsivo y atractivo.
+                Esta aplicación web utiliza React y SASS para ofrecer una experiencia de usuario dinámica y estilizada. Mediante la API de CoinGecko, provee datos actualizados sobre criptomonedas, incluyendo precios y tendencias de mercado. 
                 </p>
                 <div className='flex justify-center my-20 lg:justify-start lg:items-center gap-30 lg:mt-30 lg:mx-5'>
                     <Icon className='text-3xl items-center' icon="logos:figma"/>
                     <div className='flex gap-10'>
                         <Icon className='text-3xl' icon="logos:react" />
-                        <Icon className='text-3xl' icon="devicon:tailwindcss" />
-                        <Icon className='text-3xl' icon="devicon:astro" />
+                        <Icon className='text-3xl' icon="vscode-icons:file-type-scss2" />
+                        <Icon className='text-3xl' icon="arcticons:coingecko" color="#89bf3e" />
                     </div>
                 </div>
                 <div>
