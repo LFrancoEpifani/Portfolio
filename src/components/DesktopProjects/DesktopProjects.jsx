@@ -11,7 +11,7 @@ export default function DesktopProjects() {
 
   return (
     <div id='desktop-projects' className='text-center lg:text-start '>
-       <h2 className='nunito text-center m-20 text-2xl font-semibold my-70 lg:text-start lg:mx-160'><span className=' border-b-4 border-black'>{t('projects')}</span></h2>
+       <h2 className='nunito text-center text-2xl font-semibold my-70 lg:text-start lg:mx-120'><span className=' border-b-4 border-black'>{t('projects')}</span></h2>
         <div className='lg:flex lg:justify-evenly lg:my-50'>
        
         <div className='lg:w-[700px] lg:h-[400px] lg:rounded-md relative m-20'>

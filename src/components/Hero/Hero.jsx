@@ -12,7 +12,7 @@ export default function Hero() {
 
   return (
     <div>
-    <div className='lg:mt-120 mt-150 mb-150 lg:mb-220'>
+    <div className=' mt-150 mb-180 lg:mb-220 lg:mt-120'>
       <main className='lg:flex lg:justify-center lg:items-center'>
         <div className='lg:flex lg:items-center '>
           <div className='flex flex-col justify-center items-center'>
