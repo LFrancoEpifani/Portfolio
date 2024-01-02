@@ -86,10 +86,10 @@ function Header() {
         <nav className="lg:flex lg:justify-between lg:items-center">
           <ul className="prompt lg:flex lg:items-center lg:gap-16 lg:font-medium lg:text-md">
             <a href="#mobile-projects">
-              <li>WORK</li>
+              <li>{t('work')}</li>
             </a>
             <a href="#aboutme">
-              <li>ABOUT & CONTACT</li>
+              <li> {t('aboutAndContact')}</li>
             </a>
           </ul>
           <ul className="lg:flex lg:gap-6">

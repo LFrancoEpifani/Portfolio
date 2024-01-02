@@ -6,8 +6,8 @@ export default function MobileProjects() {
 
   return (
     <div className='flex flex-col justify-center items-center'>
-        <div className='grid grid-cols-1 justify-center items-center gap-30 lg:flex lg:justify-evenly lg:items-center lg:gap-50 lg:p-10'>
-            <div className="attitude">
+        <div className='grid grid-cols-1 justify-center items-center gap-30 lg:flex lg:justify-evenly lg:items-center lg:gap-160 lg:p-10'>
+            <div className="attitude bg-blend-luminosity">
                 <div className='absolute top-200 left-75 text-white'>
                     <h3 className='text-3xl mb-4'>Attitude</h3>
                     <div className='flex justify-center items-center gap-8 mb-12'>
