@@ -9,7 +9,7 @@ export default function Contact() {
 
   return (
     <div className='text-center lg:text-start'>
-       <div className=' my-20 lg:mb-10 lg:mt-50 lg:ml-140'>
+       <div className=' my-20 lg:mb-10 lg:mt-50 lg:ml-100'>
         <h2 className='text-3xl font-bold'>{t('contact')}</h2>
        </div>
         <div className='grid grid-cols-1 lg:grid lg:grid-cols-3 lg:justify-between lg:items-center'>
