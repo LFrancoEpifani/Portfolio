@@ -19,7 +19,7 @@ const resources = {
       soon: "SOON",
       lenguage: "Lenguage",
       projects: "PROJECTS",
-      copyright: '© 2023 Luciano Epifani. All rights reserved'
+      copyright: '© 2024 Luciano Epifani. All rights reserved'
     },
   },
   es: {
@@ -38,7 +38,7 @@ const resources = {
       soon: "PRÓXIMAMENTE",
       lenguage: "Lenguaje",
       projects: "PROYECTOS",
-      copyright: '© 2023 Luciano Epifani. Todos los derechos reservados'
+      copyright: '© 2024 Luciano Epifani. Todos los derechos reservados'
     },
   },
 };
