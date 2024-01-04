@@ -21,9 +21,6 @@ export default function DesktopProjects() {
             src={Gozice}
             alt=""
         />
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-            <h3 className="text-4xl font-bold text-white">{t('soon')}</h3>
-        </div>
     </div>
             <div>
                 <h3 className='nunito text-2xl my-10 font-bold lg:my-20'>Gozice</h3>
@@ -40,10 +37,10 @@ export default function DesktopProjects() {
                 </div>
                 <div>
                 <div className='flex justify-center items-center gap-8 my-20 lg:justify-start lg:items-center lg:my-50'>
-                        <a href="#"  target='_blank'>
+                        <a href="https://github.com/LFrancoEpifani/Gozice"  target='_blank'>
                             <Icon className='text-3xl' icon="mdi:github" />
                         </a>
-                        <a href="#"  target='_blank'>
+                        <a href="https://gozice.vercel.app/"  target='_blank'>
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" className="hover:-translate-y-1 transition-transform cursor-pointer" height="25" width="25" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"></path></svg>
                         </a>
                     </div>
